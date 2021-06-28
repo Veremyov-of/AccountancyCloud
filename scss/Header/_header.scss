@@ -1,0 +1,51 @@
+.header {
+    margin-top: 27px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    &_logo {
+        width: 195px;
+        height: 42px;
+        &_img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    &_nav {
+        width: 502px;
+        height: 24px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &_link {
+            color: #000;
+            font-weight: 400;
+            font-size: 16px;
+        }
+    }
+    &_buttons {
+        width: 303px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &_login {
+            width: 96px;
+            height: 52px;
+            border: 1px solid #000;
+            border-radius: 100px;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        &_talk {
+            width: 189px;
+            height: 50px;
+            background-color: #000;
+            color: #fff;
+            border-radius: 100px;
+        }
+    }
+}

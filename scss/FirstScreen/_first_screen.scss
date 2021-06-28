@@ -2,7 +2,7 @@
     background-image: url('../../img/backgroundFirstScreen.png');
     background-repeat: no-repeat;
     background-position: right 20% top 0;
-    background-size: contain;
+    background-size: auto;
     margin-top: 63px;
     &_title {
         width: 483px;
@@ -30,6 +30,7 @@
     }
     &_btn {
         margin-top: 27px;
+        margin-bottom: 72px;
         width: 159px;
         height: 61px;
         background-color: #000;

@@ -10,6 +10,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  background-color: #fff;
+}
+
 button {
   padding: 0;
   border: none;
@@ -123,7 +127,7 @@ a {
   background-image: url("../../img/backgroundFirstScreen.png");
   background-repeat: no-repeat;
   background-position: right 20% top 0;
-  background-size: contain;
+  background-size: auto;
   margin-top: 63px;
 }
 
@@ -156,6 +160,7 @@ a {
 
 .first_screen_btn {
   margin-top: 27px;
+  margin-bottom: 72px;
   width: 159px;
   height: 61px;
   background-color: #000;
@@ -163,5 +168,45 @@ a {
   font-size: 22px;
   font-weight: 700;
   border-radius: 100px;
+}
+
+.second_screen {
+  margin-top: 60px;
+}
+
+.second_screen .container {
+  background-image: url(../../img/backgroundSecondScreen.png);
+  background-repeat: no-repeat;
+  background-position: left 0 top 0;
+  background-size: auto;
+}
+
+.second_screen_title {
+  margin-left: auto;
+  margin-right: 0;
+  width: 510px;
+  height: 173px;
+  font-weight: bold;
+  font-size: 57px;
+  line-height: 58px;
+  color: #000;
+}
+
+.second_screen_text {
+  margin-left: auto;
+  margin-right: 0;
+  margin-top: 36px;
+  margin-bottom: 108px;
+  width: 510px;
+  height: 123px;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 31px;
+  color: #000;
+}
+
+.second_screen_text_link {
+  color: #335C81;
+  text-decoration: underline;
 }
 /*# sourceMappingURL=style.css.map */

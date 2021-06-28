@@ -1,0 +1,35 @@
+.second_screen {
+    margin-top: 60px;
+    .container {
+        background-image: url(../../img/backgroundSecondScreen.png);
+        background-repeat: no-repeat;
+        background-position: left 0 top 0;
+        background-size: auto;
+    }
+    &_title {
+        margin-left: auto;
+        margin-right: 0;
+        width: 510px;
+        height: 173px;
+        font-weight: bold;
+        font-size: 57px;
+        line-height: 58px;
+        color: #000;
+    }
+    &_text {
+        margin-left: auto;
+        margin-right: 0;
+        margin-top: 36px;
+        margin-bottom: 108px;
+        width: 510px;
+        height: 123px;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 31px;
+        color: #000;
+        &_link {
+            color: #335C81;
+            text-decoration: underline;
+        }
+    }
+}

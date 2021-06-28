@@ -1,0 +1,41 @@
+.first_screen {
+    background-image: url('../../img/backgroundFirstScreen.png');
+    background-repeat: no-repeat;
+    background-position: right 20% top 0;
+    background-size: contain;
+    margin-top: 63px;
+    &_title {
+        width: 483px;
+        height: 166px;
+        font-size: 77px;
+        font-weight: 700;
+        color: #000;
+        line-height: 83px;
+    }
+    &_text {
+        margin-top: 27px;
+        width: 483px;
+        height: 92px;
+        color: #000;
+        font-size: 20px;
+        line-height: 31px;
+        font-weight: normal;
+    }
+    &_miniTitle {
+        margin-top: 79px;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 24px;
+        color: #000;
+    }
+    &_btn {
+        margin-top: 27px;
+        width: 159px;
+        height: 61px;
+        background-color: #000;
+        color: #fff;
+        font-size: 22px;
+        font-weight: 700;
+        border-radius: 100px;
+    }
+}

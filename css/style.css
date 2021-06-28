@@ -120,7 +120,7 @@ a {
 }
 
 .first_screen {
-  background-image: url("../img/backgroundFirstScreen.png");
+  background-image: url(".././img/backgroundFirstScreen.png");
   background-repeat: no-repeat;
   background-position: right 20% top 0;
   background-size: auto;
@@ -171,7 +171,7 @@ a {
 }
 
 .second_screen .container {
-  background-image: url("../img/backgroundSecondScreen.png");
+  background-image: url(".././img/backgroundSecondScreen.png");
   background-repeat: no-repeat;
   background-position: left 0 top 0;
   background-size: auto;

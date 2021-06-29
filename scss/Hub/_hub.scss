@@ -33,6 +33,12 @@
         line-height: 50px;
         background: #F7B2B7;
         border-radius: 100px;
+        border: 2px solid #F7B2B7;
+        transition: background .2s;
+        &:hover {
+            transition: background .2s;
+            background-color: white;
+        }
 
     }
 }

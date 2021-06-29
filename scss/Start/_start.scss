@@ -1,4 +1,5 @@
 .start {
+    margin-top: 80px;
     &_wrapp {
         padding: 90px;
         width: 100%;
@@ -32,7 +33,12 @@
             font-size: 18px;
             text-align: center;
             color: #fff;
-            background-color: #000;    
+            background-color: #000;
+            transition: color .2s;
+            &:hover {
+                transition: color .2s;
+                color: #8BD4D6;
+            }
         }
     }
 }

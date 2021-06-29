@@ -3,6 +3,7 @@
     background-color: #302E3F;
     padding: 45px 145px;
     &_logo {
+        display: block;
         height: 50px;
         display: flex;
         align-items: center;
@@ -42,6 +43,9 @@
                     font-weight: normal;
                     font-size: 16px;
                     color: #C5E9EA;
+                    &:hover {
+                        text-decoration: underline;
+                    }
                 }
             }
         }
@@ -63,6 +67,7 @@
             }
         }
         &_logo {
+            display: block;
             width: 70px;
             height: 70px;
             img {

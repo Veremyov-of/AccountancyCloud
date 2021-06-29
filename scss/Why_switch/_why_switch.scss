@@ -31,6 +31,11 @@
                 &_link {
                     color: #335C81;
                     text-decoration: underline;
+                    transition: color .2s;
+                    &:hover {
+                        transition: color .2s;
+                        color: #67a4da;
+                    }
                 }
             }
         }
@@ -46,5 +51,11 @@
         height: 50px;
         border-radius: 100px;
         background-color: #F7B2B7;
+        border: 2px solid #F7B2B7;
+        transition: background .2s;
+        &:hover {
+            transition: background .2s;
+            background-color: white;
+        }
     }
 }

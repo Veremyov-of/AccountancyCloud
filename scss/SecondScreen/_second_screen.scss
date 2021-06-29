@@ -1,5 +1,5 @@
 .second_screen {
-    margin-top: 60px;
+    margin-bottom: 150px;
     .container {
         background-image: url(".././img/backgroundSecondScreen.png");
         background-repeat: no-repeat;
@@ -29,7 +29,12 @@
         color: #000;
         &_link {
             color: #335C81;
+            transition: color .2s;
             text-decoration: underline;
+            &:hover {
+                transition: color .2s;
+                color: #67a4da;
+            }
         }
     }
 }

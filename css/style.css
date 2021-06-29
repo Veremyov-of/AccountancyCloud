@@ -40,7 +40,7 @@ ul {
 }
 
 .header {
-  margin-top: 27px;
+  padding-top: 27px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -89,12 +89,16 @@ ul {
   content: '';
   position: absolute;
   width: 100%;
-  height: 1px;
+  height: 2px;
   background-color: #fff;
-  bottom: 0;
+  bottom: -2px;
+  -webkit-transition: background .2s;
+  transition: background .2s;
 }
 
 .header_nav_link:hover:before {
+  -webkit-transition: all .2s;
+  transition: all .2s;
   background-color: #000;
 }
 
@@ -118,6 +122,14 @@ ul {
   border-radius: 100px;
   font-weight: bold;
   font-size: 18px;
+  -webkit-transition: background .2s;
+  transition: background .2s;
+}
+
+.header_buttons_login:hover {
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  background-color: #C5E9EA;
 }
 
 .header_buttons_talk {
@@ -126,6 +138,14 @@ ul {
   background-color: #000;
   color: #fff;
   border-radius: 100px;
+  -webkit-transition: color .2s;
+  transition: color .2s;
+}
+
+.header_buttons_talk:hover {
+  -webkit-transition: color .2s;
+  transition: color .2s;
+  color: #C5E9EA;
 }
 
 .first_screen {
@@ -134,7 +154,7 @@ ul {
   background-position: right 20% top 0;
   background-size: auto;
   margin-top: 100px;
-  margin-bottom: 72px;
+  margin-bottom: 170px;
 }
 
 .first_screen_title {
@@ -173,10 +193,18 @@ ul {
   font-size: 22px;
   font-weight: 700;
   border-radius: 100px;
+  -webkit-transition: color .2s;
+  transition: color .2s;
+}
+
+.first_screen_btn:hover {
+  -webkit-transition: color .2s;
+  transition: color .2s;
+  color: #C5E9EA;
 }
 
 .second_screen {
-  margin-top: 60px;
+  margin-bottom: 150px;
 }
 
 .second_screen .container {
@@ -212,7 +240,15 @@ ul {
 
 .second_screen_text_link {
   color: #335C81;
+  -webkit-transition: color .2s;
+  transition: color .2s;
   text-decoration: underline;
+}
+
+.second_screen_text_link:hover {
+  -webkit-transition: color .2s;
+  transition: color .2s;
+  color: #67a4da;
 }
 
 .why_switch {
@@ -264,6 +300,14 @@ ul {
 .why_switch_wrapp_item_text_link {
   color: #335C81;
   text-decoration: underline;
+  -webkit-transition: color .2s;
+  transition: color .2s;
+}
+
+.why_switch_wrapp_item_text_link:hover {
+  -webkit-transition: color .2s;
+  transition: color .2s;
+  color: #67a4da;
 }
 
 .why_switch_link {
@@ -277,6 +321,15 @@ ul {
   height: 50px;
   border-radius: 100px;
   background-color: #F7B2B7;
+  border: 2px solid #F7B2B7;
+  -webkit-transition: background .2s;
+  transition: background .2s;
+}
+
+.why_switch_link:hover {
+  -webkit-transition: background .2s;
+  transition: background .2s;
+  background-color: white;
 }
 
 .plans {
@@ -395,6 +448,19 @@ ul {
   line-height: 50px;
   background: #F7B2B7;
   border-radius: 100px;
+  border: 2px solid #F7B2B7;
+  -webkit-transition: background .2s;
+  transition: background .2s;
+}
+
+.hub_link:hover {
+  -webkit-transition: background .2s;
+  transition: background .2s;
+  background-color: white;
+}
+
+.start {
+  margin-top: 80px;
 }
 
 .start_wrapp {
@@ -438,6 +504,14 @@ ul {
   text-align: center;
   color: #fff;
   background-color: #000;
+  -webkit-transition: color .2s;
+  transition: color .2s;
+}
+
+.start_wrapp_link:hover {
+  -webkit-transition: color .2s;
+  transition: color .2s;
+  color: #8BD4D6;
 }
 
 .footer {
@@ -447,6 +521,7 @@ ul {
 }
 
 .footer_logo {
+  display: block;
   height: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -507,6 +582,10 @@ ul {
   color: #C5E9EA;
 }
 
+.footer_wrapp_item ul li a:hover {
+  text-decoration: underline;
+}
+
 .footer_down {
   margin-top: 20px;
   display: -webkit-box;
@@ -537,6 +616,7 @@ ul {
 }
 
 .footer_down_logo {
+  display: block;
   width: 70px;
   height: 70px;
 }

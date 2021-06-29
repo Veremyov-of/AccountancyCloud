@@ -4,7 +4,7 @@
     background-position: right 20% top 0;
     background-size: auto;
     margin-top: 100px;
-    margin-bottom: 72px;
+    margin-bottom: 170px;
     &_title {
         width: 483px;
         height: 166px;
@@ -38,5 +38,10 @@
         font-size: 22px;
         font-weight: 700;
         border-radius: 100px;
+        transition: color .2s;
+        &:hover {
+            transition: color .2s;
+            color: #C5E9EA;
+        }
     }
 }

@@ -125,6 +125,7 @@ a {
   background-position: right 20% top 0;
   background-size: auto;
   margin-top: 63px;
+  margin-bottom: 72px;
 }
 
 .first_screen_title {
@@ -156,7 +157,6 @@ a {
 
 .first_screen_btn {
   margin-top: 27px;
-  margin-bottom: 72px;
   width: 159px;
   height: 61px;
   background-color: #000;
@@ -208,6 +208,7 @@ a {
 
 .why_switch {
   margin-top: 90px;
+  margin-bottom: 126px;
 }
 
 .why_switch_title {
@@ -257,7 +258,6 @@ a {
 }
 
 .why_switch_link {
-  margin-bottom: 126px;
   text-align: center;
   line-height: 50px;
   color: #000;
@@ -268,5 +268,55 @@ a {
   height: 50px;
   border-radius: 100px;
   background-color: #F7B2B7;
+}
+
+.plans {
+  background-color: #FDECED;
+  padding-top: 60px;
+  padding-bottom: 90px;
+}
+
+.plans_title {
+  font-weight: normal;
+  font-size: 58px;
+  color: #000;
+}
+
+.plans_wrapp {
+  margin-top: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.plans_wrapp_item {
+  width: 308px;
+  height: 404px;
+}
+
+.plans_wrapp_item_img {
+  width: 308px;
+  height: 174px;
+}
+
+.plans_wrapp_item_title {
+  margin-top: 24px;
+  font-weight: bold;
+  font-size: 28px;
+  color: #000;
+}
+
+.plans_wrapp_item_text {
+  width: 304px;
+  margin-top: 10px;
+  color: #000;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
 }
 /*# sourceMappingURL=style.css.map */

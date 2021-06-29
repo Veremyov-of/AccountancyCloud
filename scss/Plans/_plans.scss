@@ -1,0 +1,38 @@
+.plans {
+    background-color: #FDECED;
+    padding-top: 60px;
+    padding-bottom: 90px;
+    &_title {
+        font-weight: normal;
+        font-size: 58px;
+        color: #000;
+    }
+    &_wrapp {
+        margin-top: 70px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        &_item {
+            width: 308px;
+            height: 404px;
+            &_img {
+                width: 308px;
+                height: 174px;
+            }
+            &_title {
+                margin-top: 24px;
+                font-weight: bold;
+                font-size: 28px;
+                color: #000;
+            }
+            &_text {
+                width: 304px;
+                margin-top: 10px;
+                color: #000;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 24px;
+            }
+        }
+    }
+}

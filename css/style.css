@@ -30,6 +30,15 @@ a {
   text-decoration: none;
 }
 
+li {
+  list-style-type: none;
+}
+
+ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+
 .header {
   margin-top: 27px;
   display: -webkit-box;
@@ -352,7 +361,7 @@ a {
 .hub .container {
   padding-bottom: 150px;
   padding-top: 100px;
-  background-image: url("../../img/backgroundHub.png");
+  background-image: url(".././img/backgroundHub.png");
   background-position: right;
   background-repeat: no-repeat;
   background-size: auto;
@@ -429,5 +438,111 @@ a {
   text-align: center;
   color: #fff;
   background-color: #000;
+}
+
+.footer {
+  margin-top: 110px;
+  background-color: #302E3F;
+  padding: 45px 145px;
+}
+
+.footer_logo {
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer_logo_img {
+  margin-right: 18px;
+  width: 50px;
+  height: 50px;
+}
+
+.footer_logo_img img {
+  width: 100%;
+  height: 100%;
+}
+
+.footer_logo_title {
+  color: #fff;
+  font-weight: normal;
+  font-size: 28px;
+}
+
+.footer_wrapp {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.footer_wrapp_item {
+  margin-top: 60px;
+  width: 204px;
+}
+
+.footer_wrapp_item_title {
+  font-weight: bold;
+  font-size: 18px;
+  color: #fff;
+}
+
+.footer_wrapp_item ul {
+  margin-top: 12px;
+}
+
+.footer_wrapp_item ul li a {
+  line-height: 25px;
+  font-weight: normal;
+  font-size: 16px;
+  color: #C5E9EA;
+}
+
+.footer_down {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer_down_wrapp {
+  width: 550px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer_down_wrapp h4 {
+  font-weight: normal;
+  font-size: 16px;
+  color: #C5E9EA;
+}
+
+.footer_down_logo {
+  width: 70px;
+  height: 70px;
+}
+
+.footer_down_logo img {
+  width: 100%;
+  height: 100%;
 }
 /*# sourceMappingURL=style.css.map */

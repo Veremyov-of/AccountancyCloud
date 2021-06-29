@@ -10,14 +10,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
+<body id="body">
 
     <div class="container" id="home">
         <header class="header">
             <div class="header_logo">
                 <img class="header_logo_img" src="./img/logo.png" alt="img">
             </div>
-            <nav class="header_nav">
+            <nav class="header_nav" id="nav">
                 <a class="header_nav_link" href='#'>Home</a>
                 <a class="header_nav_link" href='#'>How it works</a>
                 <a class="header_nav_link" href='#'>What we do</a>
@@ -28,6 +28,11 @@
                 <button class="header_buttons_login">Login</button>
                 <button class="header_buttons_talk">Talk to an Expert</button>
             </div>
+            <a href="#home" class="burger_menu" id="menu">
+                <div class="burger_menu_line"></div>
+                <div class="burger_menu_line"></div>
+                <div class="burger_menu_line"></div>
+            </a>
         </header>
     </div>
 
@@ -84,7 +89,7 @@
                         Track cashflow
                     </h3>
                     <p class="why_switch_wrapp_item_text">
-                        Stay on top of your working capital, <a class="why_switch_wrapp_item_text_link">taxes</a>a, and cashflow, 
+                        Stay on top of your working capital, <a class="why_switch_wrapp_item_text_link">taxes</a>, and cashflow, 
                         to ensure your business is performing at its best.
                     </p>
                 </div>
@@ -286,6 +291,6 @@
     </footer>
 
 
-    
+    <script src="./js/main.js"></script>
 </body>
 </html>

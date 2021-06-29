@@ -1,0 +1,41 @@
+@media(max-width: 1435px){
+    .first_screen {
+        background-size: auto;
+        background-position: right 0 top 0;
+    }
+} 
+
+@media(max-width: 1100px){
+    .first_screen {
+        margin-top: 10px;
+        margin-bottom: 10%;
+        background-position: top center;
+        padding-top: 500px;
+        display: flex;
+    }
+}
+
+
+@media(max-width: 680px){
+    .first_screen {
+        padding: 0 10px;
+        background-size: 90%;
+        padding-top: 70%;
+        &_title {
+            line-height: 55px;
+            font-size: 45px;
+            width: 320px;
+            height: auto;
+        }
+        &_text {
+            height: auto;
+            width: 300px;
+            margin-top: 10px;
+            font-size: 18px;
+            
+        }
+        &_miniTitle {
+            margin-top: 30px;
+        }
+    }
+} 

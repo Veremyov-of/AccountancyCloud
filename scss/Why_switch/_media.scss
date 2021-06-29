@@ -1,0 +1,41 @@
+@media(max-width: 1020px) {
+    .why_switch {
+        display: flex;
+        margin-top: 0;
+        &_title {
+            margin: 0 auto;
+            width: 510px;
+        }
+    }
+}
+
+@media(max-width: 950px) {
+    .why_switch {
+        &_wrapp {
+            margin-top: 35px;
+            flex-direction: column;
+        }
+    }
+}
+
+@media(max-width: 550px) {
+    .why_switch {
+        padding: 0 10px;
+        margin-top: 70px;
+        margin-bottom: 70px;
+        &_title {
+            width: 310px;
+            font-size: 35px;
+        }
+        &_wrapp {
+            &_item {
+                margin-top: 20px;
+                width: 290px;
+                height: auto;
+            }
+        }
+        &_link {
+            margin-top: 40px;
+        }
+    }
+}

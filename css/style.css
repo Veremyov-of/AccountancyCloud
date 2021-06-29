@@ -348,4 +348,43 @@ a {
   width: 200px;
   height: 84px;
 }
+
+.hub .container {
+  padding-bottom: 150px;
+  padding-top: 100px;
+  background-image: url("../../img/backgroundHub.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.hub_title {
+  width: 343px;
+  height: 58px;
+  font-weight: bold;
+  font-size: 58px;
+  color: #000;
+}
+
+.hub_text {
+  margin-top: 40px;
+  width: 547px;
+  height: 62px;
+  color: #000;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.hub_link {
+  margin-top: 80px;
+  width: 140px;
+  height: 50px;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 50px;
+  background: #F7B2B7;
+  border-radius: 100px;
+}
 /*# sourceMappingURL=style.css.map */

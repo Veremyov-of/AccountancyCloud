@@ -124,7 +124,7 @@ a {
   background-repeat: no-repeat;
   background-position: right 20% top 0;
   background-size: auto;
-  margin-top: 63px;
+  margin-top: 100px;
   margin-bottom: 72px;
 }
 
@@ -207,7 +207,7 @@ a {
 }
 
 .why_switch {
-  margin-top: 90px;
+  margin-top: 100px;
   margin-bottom: 126px;
 }
 
@@ -318,5 +318,34 @@ a {
   font-weight: normal;
   font-size: 18px;
   line-height: 24px;
+}
+
+.companies {
+  margin-top: 110px;
+  margin-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.companies_title {
+  width: 236px;
+  height: 72px;
+  font-weight: normal;
+  font-size: 27px;
+  color: #000;
+}
+
+.companies_wrapp {
+  width: 700px;
+  height: 360px;
+}
+
+.companies_wrapp_item {
+  width: 200px;
+  height: 84px;
 }
 /*# sourceMappingURL=style.css.map */

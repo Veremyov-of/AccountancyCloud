@@ -1,0 +1,21 @@
+.companies {
+    margin-top: 110px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    &_title {
+        width: 236px;
+        height: 72px;
+        font-weight: normal;
+        font-size: 27px;
+        color: #000;
+    }
+    &_wrapp {
+        width: 700px;
+        height: 360px;
+        &_item {
+            width: 200px;
+            height: 84px;
+        }
+    }
+}

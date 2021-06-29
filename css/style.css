@@ -387,4 +387,47 @@ a {
   background: #F7B2B7;
   border-radius: 100px;
 }
+
+.start_wrapp {
+  padding: 90px;
+  width: 100%;
+  height: 283px;
+  background-color: #8BD4D6;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.start_wrapp_main_title {
+  font-weight: bold;
+  font-size: 46px;
+  color: #000;
+}
+
+.start_wrapp_main_text {
+  margin-top: 18px;
+  font-weight: normal;
+  font-size: 20px;
+  color: #000;
+}
+
+.start_wrapp_link {
+  width: 159px;
+  height: 50px;
+  display: block;
+  border-radius: 100px;
+  line-height: 50px;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+  background-color: #000;
+}
 /*# sourceMappingURL=style.css.map */

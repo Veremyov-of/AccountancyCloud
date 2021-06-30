@@ -1,0 +1,34 @@
+@media(max-width: 950px) {
+    .companies {
+        margin-top: 70px;
+        display: block;
+        &_title{
+            margin: 0 auto;
+            width: 510px;
+            font-size: 40px;
+        }
+        &_wrapp {
+            margin: 0 auto;
+            margin-top: 40px;
+            display: flex;
+            flex-wrap: wrap;
+            width: 510px;
+            height: auto;
+        }
+    }
+}
+
+@media(max-width: 550px){
+    .companies {
+        padding: 0 5px;
+        &_title {
+            text-align: center;
+            width: 310px;
+            font-size: 30px;
+        }
+        &_wrapp {
+            justify-content: center;
+            width: 310px;
+        }
+    }
+}

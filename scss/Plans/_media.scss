@@ -1,0 +1,33 @@
+@media(max-width: 950px){
+    .plans {
+        &_title {
+            margin: 0 auto;
+            width: 510px;
+        }
+        &_wrapp {
+            margin: 0 auto;
+            width: 510px;
+            flex-direction: column;
+        }
+    }
+}
+
+@media(max-width: 550px) {
+    .plans {
+        padding: 50px 5px;
+        &_title {
+            width: 310px;
+            font-size: 35px;
+            font-weight: bold;
+        }
+        &_wrapp {
+            width: 290px;
+            &_item {
+                width: 280px;
+                &_text {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

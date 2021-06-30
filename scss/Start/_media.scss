@@ -1,0 +1,44 @@
+@media(max-width: 730px) {
+    .start {
+        padding: 0 10px;
+        &_wrapp {
+            height: auto;
+            flex-wrap: wrap;
+            &_link {
+                margin-top: 30px;
+            }
+        }
+    }
+}
+
+
+@media(max-width: 600px) {
+    .start {
+        &_wrapp {
+            &_main {
+                &_title{
+                    width: 100%;
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 400px) {
+    .start {
+        padding: 0;
+        &_wrapp {
+            padding: 10px 20px;
+            &_main {
+                &_title{
+                    width: 100%;
+                    font-size: 22px;
+                }
+                &_text {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+@media(max-width: 900px){
+    .footer {
+        margin-top: 50px;
+        padding: 30px 10px;
+        &_logo {
+            &_title {
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+
+@media(max-width: 550px){
+    .footer {
+        margin-top: 50px;
+        padding: 30px 5px;
+        &_logo {
+            &_img {
+                width: 40px;
+                height: 40px;
+            }
+            &_title {
+                font-size: 19px;
+            }
+        }
+    }
+}

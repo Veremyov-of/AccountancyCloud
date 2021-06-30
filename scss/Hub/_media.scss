@@ -1,0 +1,48 @@
+@media(max-width: 1000px) {
+    .hub {
+        margin-top: 80px;
+        margin-bottom: 50px;
+        .container {
+            padding: 0;
+            // padding: 0;
+            // padding-top: 40%;
+            // background-position: top  left 30%;
+            // background-size: 40%;
+            background: none;
+        }
+        &_title {
+            margin: 0 auto;
+            width: 510px;
+        }
+        &_text {
+            margin: 0 auto;
+            margin-top: 15px;
+            width: 510px;
+        }
+        &_link {
+            margin: 0 auto;
+            margin-top: 40px;
+        }
+    }
+}
+
+@media(max-width: 550px) {
+    .hub {
+        padding: 0 5px;
+        &_title {
+            margin: 0;
+            width: 290px;
+            height: auto;
+            font-size: 35px;
+        }
+        &_text {
+            margin: 0;
+            width: 290px;
+            height: auto;
+        }
+        &_link {
+            margin: 0;
+            margin-top: 20px;
+        }
+    }
+}

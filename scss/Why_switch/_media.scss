@@ -20,7 +20,7 @@
 
 @media(max-width: 550px) {
     .why_switch {
-        padding: 0 10px;
+        padding: 0 5px;
         margin-top: 70px;
         margin-bottom: 70px;
         &_title {
@@ -28,8 +28,9 @@
             font-size: 35px;
         }
         &_wrapp {
+            margin-top: 0;
             &_item {
-                margin-top: 20px;
+                margin-top: 15px;
                 width: 290px;
                 height: auto;
             }

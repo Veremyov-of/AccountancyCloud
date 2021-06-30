@@ -200,11 +200,32 @@ ul {
     height: 50px;
   }
   .header .burger_menu_line {
+    -webkit-transition: all .2s;
+    transition: all .2s;
     margin-top: 8px;
     margin-left: 10px;
-    width: 100%;
+    width: 40px;
     height: 5px;
     background-color: black;
+  }
+  .header .menu_active .burger_menu_line {
+    -webkit-transition: all .2s;
+    transition: all .2s;
+  }
+  .header .menu_active .burger_menu_line:nth-child(1) {
+    position: relative;
+    top: 13px;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  .header .menu_active .burger_menu_line:nth-child(2) {
+    background-color: transparent;
+  }
+  .header .menu_active .burger_menu_line:nth-child(3) {
+    position: relative;
+    bottom: 13px;
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
   }
 }
 

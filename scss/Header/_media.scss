@@ -36,11 +36,30 @@
             width: 40px;
             height: 50px;
             &_line {
+                transition: all .2s;
                 margin-top: 8px;
                 margin-left: 10px;
-                width: 100%;
+                width: 40px;
                 height: 5px;
                 background-color: black;
+            }
+        }
+        .menu_active {
+            .burger_menu_line {
+                transition: all .2s;
+                &:nth-child(1){
+                    position: relative;
+                    top: 13px;
+                    transform: rotate(45deg);
+                }
+                &:nth-child(2){
+                    background-color: transparent;
+                }
+                &:nth-child(3){
+                    position: relative;
+                    bottom: 13px;
+                    transform: rotate(-45deg);
+                }
             }
         }
     }
